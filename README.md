@@ -1,30 +1,24 @@
 # hangus
-A little hangman game, a little study of python
+A little hangman game, that's actually fun to play
 
-This is a little study of Python that came after reading about object-oriented 
-`Python`. This project contains a lot of technical elements because of its 
-studying purpose.
+This is a little study of Python that came after years of using it.
+This project contains a no bullshit.
 
 ## Features
-* Object oriented design
-  * SOLID principles
-  * Properties
-  * Simplicity
-* Unit test
-* Architecture with separated logic and display
-* Code documentation
-* Fool proof (invalid entries and other misuse is not allowed and will not 
-crash application)
+  * ACTUAL Simplicity
+	* ACTUALLY Fun
 
 ## How it actually works?
 
 So far it has not yet been developed as a console application so the user should
-run the `main.py` file using `python3`.
+run the `hangman.py` file using `python2`.
 
-When started, the application leads the user through the game. It is designed 
-for two players. One should first enter the word or a phrase. After 
-that the second player should guess the word or a phrase, and the first player
-may or may not laugh at the second player. 
+```python
+python2 hangman.py
+```
 
-It is still far from perfect, it requires a little polish, but the basis 
-is made.
+When started, the application leads the user through the game. It is designed
+for one player. The word is randomly selected through some wild api. After
+that the player should guess the word or a phrase.
+
+It is now perfect, it requires no polish.
